@@ -41,7 +41,7 @@ class Contact extends Component {
           </div>
           <div className="col download ">
             <p>
-              <a href={resumeDownload} className="button">
+              <a href={resumeDownload} className="button" target="_blank">
                 <i className="fa fa-download"></i>Resume
               </a>
             </p>

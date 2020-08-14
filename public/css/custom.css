@@ -56,3 +56,21 @@ header .scrolldown a:hover {
 #go-top a:hover {
   background-color: var(--accent-color);
 }
+
+.link-icon a {
+  color: white;
+}
+
+.link-icon a:hover {
+  color: var(--accent-color);
+}
+
+.portfolio-item .item-wrap {
+  max-height: 150px;
+  min-height: 150px;
+}
+
+.portfolio-item .item-wrap img {
+  height: 150px;
+  width: 150%;
+}

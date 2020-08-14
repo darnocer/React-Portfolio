@@ -473,7 +473,7 @@ ul#nav li a:active {
   transition: all 0.3s ease-in-out;
 }
 .portfolio-item .item-wrap a {
-  display: block;
+  /* display: block; */
   cursor: pointer;
 }
 
@@ -500,7 +500,7 @@ ul#nav li a:active {
   display: block;
   color: #fff;
   height: 30px;
-  width: 30px;
+  width: 75px;
   font-size: 18px;
   line-height: 30px;
   text-align: center;
@@ -517,9 +517,10 @@ ul#nav li a:active {
   position: absolute;
   top: 50%;
   left: 50%;
-  margin-left: -15px;
-  margin-top: -15px;
+  margin-left: -36px;
+  margin-top: 20px;
 }
+
 .portfolio-item .item-wrap img {
   vertical-align: bottom;
 }
@@ -1097,7 +1098,4 @@ footer .social-links li:first-child {
   font-size: 21px;
   line-height: 60px;
   border-radius: 100%;
-}
-#go-top a:hover {
-  background-color: #8b9eb8;
 }

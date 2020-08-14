@@ -8,18 +8,22 @@ class Portfolio extends Component {
         return (
           <div key={projects.title} className="columns portfolio-item">
             <div className="item-wrap">
-              <a href={projects.url} title={projects.title}>
-                <img alt={projects.title} src={projectImage} />
-                <div className="overlay">
-                  <div className="portfolio-item-meta">
-                    <h5>{projects.title}</h5>
-                    <p>{projects.category}</p>
-                  </div>
+              <img alt={projects.title} src={projectImage} />
+              <div className="overlay">
+                <div className="portfolio-item-meta">
+                  <h5>{projects.title}</h5>
+                  <p>{projects.category}</p>
                 </div>
-                <div className="link-icon">
+              </div>
+              <div className="link-icon">
+                <a href={projects.url} title={projects.title} target="_blank">
                   <i className="fa fa-link"></i>
-                </div>
-              </a>
+                </a>
+                &nbsp;
+                <a href={projects.source} title="Source Code" target="_blank">
+                  <i class="fas fa-code"></i>
+                </a>
+              </div>
             </div>
           </div>
         );

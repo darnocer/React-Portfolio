@@ -41,6 +41,12 @@ class Portfolio extends Component {
               className="bgrid-thirds s-bgrid-thirds cf">
               {projects}
             </div>
+            <h1>
+              Also check out my personal documentation compilation at{" "}
+              <a href="https://github.com/darnocers-tips" target="_blank">
+                THE VAULT
+              </a>
+            </h1>
           </div>
         </div>
       </section>

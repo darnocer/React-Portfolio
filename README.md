@@ -8,6 +8,8 @@
 
 A showcase of myself and projects built with the almighty & powerful [React](https://reactjs.org/).
 
+![demo](/public/images/demo.png)
+
 ## Table of Contents
 
 - [Installation](#installation)

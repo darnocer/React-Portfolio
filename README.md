@@ -1,6 +1,6 @@
 # Darian Nocera's Portfolio
 
-![last commit](https://img.shields.io/github/last-commit/darnocer/React-Employee-Directory?style=flat-square)
+![last commit](https://img.shields.io/github/last-commit/darnocer/React-Portfolio?style=flat-square)
 
 ## Link
 

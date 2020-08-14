@@ -51,7 +51,7 @@ _in progress_
 
 ## Credits
 
-Thank you to [Tim Baker](https://github.com/tbakerx/react-resume-template) for directing me to [this Styleshout template](https://www.styleshout.com/free-templates/ceevee/) in which I restructured and restyled to meet my preferences.
+Thank you to [Tim Baker](https://github.com/tbakerx/react-resume-template) for directing me to [this Styleshout template](https://www.styleshout.com/free-templates/ceevee/) in which I restructured, refactored, and restyled to meet my preferences.
 
 - [React](https://reactjs.org/)
 - [Bootstrap](https://getbootstrap.com/docs/4.4/getting-started/introduction/)

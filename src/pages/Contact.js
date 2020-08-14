@@ -17,34 +17,34 @@ class Contact extends Component {
     }
 
     return (
-      <section id="about">
+      <section id="contact" className="container">
         <div className="row">
-          <div className="nine columns main-col">
+          <div className="col">
             <h2>Contact</h2>
-            <div className="row">
-              <div className="columns contact-details">
-                {/* <h2>Contact Details</h2> */}
-                <p className="address">
-                  <span>{fullname}</span>
-                  <br />
-                  <i class="fas fa-map-marker-alt"></i>&nbsp;
-                  <span>
-                    {city} {state}, {zip}
-                  </span>
-                  <br />
-                  <span>{phone}</span>
-                  <br />
-                  <span>{email}</span>
-                </p>
-              </div>
-              <div className="columns download">
-                <p>
-                  <a href={resumeDownload} className="button">
-                    <i className="fa fa-download"></i>Resume
-                  </a>
-                </p>
-              </div>
-            </div>
+          </div>
+        </div>
+
+        <div className="row">
+          <div className="col contact-details ">
+            <p className="address">
+              <span>{fullname}</span>
+              <br />
+              <i class="fas fa-map-marker-alt"></i>&nbsp;
+              <span>
+                {city} {state}, {zip}
+              </span>
+              <br />
+              <span>{phone}</span>
+              <br />
+              <span>{email}</span>
+            </p>
+          </div>
+          <div className="col download ">
+            <p>
+              <a href={resumeDownload} className="button">
+                <i className="fa fa-download"></i>Resume
+              </a>
+            </p>
           </div>
         </div>
       </section>

@@ -1,0 +1,13 @@
+#nav-wrap {
+  background-color: #333 !important;
+}
+
+ul#nav li.current a {
+  color: #8b9eb8;
+}
+
+.contact-details,
+.download,
+#contact h2 {
+  text-align: center !important;
+}

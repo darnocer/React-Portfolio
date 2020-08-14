@@ -20,7 +20,7 @@ class Contact extends Component {
       <section id="contact" className="container">
         <div className="row">
           <div className="col">
-            <h2>Contact</h2>
+            <h2>Holla @ Me</h2>
           </div>
         </div>
 

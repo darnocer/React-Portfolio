@@ -196,7 +196,8 @@ ul#nav li a:active {
 /* ------------------------------------------------------------------ */
 
 #about,
-#contact {
+#contact,
+#tuf {
   background: #2b2b2b;
   padding-top: 96px;
   padding-bottom: 66px;
@@ -206,18 +207,22 @@ ul#nav li a:active {
 #about a,
 #about a:visited,
 #contact a,
-#contact a:visited {
+#contact a:visited,
+#tuf a,
+#tuf a:visited {
   color: #fff;
 }
 
 #about h2,
-#contact h2 {
+#contact h2,
+#tuf h2 {
   font: 22px/30px "opensans-bold", sans-serif;
   color: #fff;
   margin-bottom: 12px;
 }
 #about p,
-#contact p {
+#contact p,
+#tuf p {
   line-height: 30px;
   color: #7a7a7a;
 }

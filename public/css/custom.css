@@ -1,6 +1,15 @@
 :root {
-  /* --accent-color: #8b9eb8; */
   --accent-color: #5d87b3;
+}
+
+@media only screen and (max-width: 767px) {
+  header .banner-text h3 {
+    color: #fff !important;
+  }
+
+  header .banner-text h3 span {
+    color: #333 !important;
+  }
 }
 
 #nav-wrap {
@@ -20,12 +29,13 @@ ul#nav li.current a,
 }
 
 header .banner-text h3 {
-  color: #fff !important;
-  text-shadow: 0px 1px 2px rgba(0, 0, 0, 0.5);
+  color: #333 !important;
+  /* text-shadow: 0px 1px 2px rgba(0, 0, 0, 0.5); */
 }
 
 header .banner-text h3 span {
-  color: #333 !important;
+  color: #fff !important;
+  text-shadow: 0px 1px 2px rgba(0, 0, 0, 0.5);
 }
 
 header .social li a:hover,
@@ -50,6 +60,10 @@ header .scrolldown a:hover {
 #contact textarea:focus,
 #contact select:focus,
 #resume a:visited,
+#tuf a:hover,
+#tuf a:focus,
+#tuf a,
+#tuf a:visited,
 .stats-tabs li a:hover {
   color: var(--accent-color);
 }
@@ -74,4 +88,51 @@ header .scrolldown a:hover {
 .portfolio-item .item-wrap img {
   height: 150px;
   width: 150%;
+}
+
+#contact {
+  padding: 30px;
+}
+
+#tuf img {
+  width: 25%;
+  margin: 10px;
+}
+
+.columns {
+  margin-left: -0.75rem;
+  margin-right: -0.75rem;
+  margin-top: -0.75rem;
+}
+
+.column {
+  display: block;
+  flex-basis: 0;
+  flex-grow: 1;
+  flex-shrink: 1;
+  padding: 0.75rem;
+}
+
+#tuf .column {
+  max-width: 80vh;
+  position: relative;
+  left: 10%;
+}
+
+.float-left {
+  float: left;
+}
+
+.float-right {
+  float: right;
+}
+
+.clear-float {
+  float: none;
+}
+
+#tuf .logo {
+  position: relative;
+  width: 100%;
+  /* border-radius: 100%; */
 }

@@ -4,6 +4,8 @@
 
 ## Link
 
+http://www.dariannocera.com/
+
 ## Description
 
 A showcase of myself and projects built with the almighty & powerful [React](https://reactjs.org/).
@@ -35,12 +37,8 @@ can use as is or style to your heart's desire
 _in progress_
 
 - Replace skills with technologies
-- add non-profit work
 - add contact form
 - favicon
-- fix the link icon placement on portfolio images
-- update icon / button hover color
-- styling for contact section
 - change fonts
 - refactoring - smaller components, remove unused variables
 
@@ -49,9 +47,9 @@ _in progress_
 Thank you to [Tim Baker](https://github.com/tbakerx/react-resume-template) for directing me to [this Styleshout template](https://www.styleshout.com/free-templates/ceevee/) in which I restructured, refactored, and restyled to meet my preferences.
 
 - [React](https://reactjs.org/)
-- [Bootstrap](https://getbootstrap.com/docs/4.4/getting-started/introduction/)
 - [Font Awesome](https://fontawesome.com/)
 - [Color Palette Generator](https://www.canva.com/colors/color-palette-generator/)
+- Domain hosted with [Netlify](www.netlify.com)
 
 - Header photo taken from Mt. Elbert, CO at 14,439 ft :)
 

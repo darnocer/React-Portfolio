@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 
-class Resume extends Component {
+class Skills extends Component {
   render() {
     if (this.props.data) {
       var skillmessage = this.props.data.skillmessage;
@@ -85,4 +85,4 @@ class Resume extends Component {
   }
 }
 
-export default Resume;
+export default Skills;

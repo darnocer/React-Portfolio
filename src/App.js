@@ -4,7 +4,7 @@ import $ from "jquery";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
 import About from "./pages/About";
-import Resume from "./pages/Resume";
+import Skills from "./pages/Skills";
 import Contact from "./pages/Contact";
 import Portfolio from "./pages/Portfolio";
 import TUF from "./pages/TUF";
@@ -45,7 +45,7 @@ class App extends Component {
       <div className="App">
         <Header data={this.state.resumeData.main} />
         <About data={this.state.resumeData.main} />
-        <Resume data={this.state.resumeData.resume} />
+        <Skills data={this.state.resumeData.resume} />
         <Portfolio data={this.state.resumeData.portfolio} />
         <Contact data={this.state.resumeData.main} />
         <TUF data={this.state.resumeData.main} />

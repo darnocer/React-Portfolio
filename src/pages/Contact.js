@@ -36,7 +36,9 @@ class Contact extends Component {
               <br />
               <span>{phone}</span>
               <br />
-              <span>{email}</span>
+              <a href="mailto:darian.nocera26@gmail.com">
+                <span>{email}</span>
+              </a>
             </p>
           </div>
           <div className="download">

@@ -25,7 +25,7 @@ class Contact extends Component {
         </div>
 
         <div className="row">
-          <div className="col contact-details ">
+          <div className="col contact-details">
             <p className="address">
               <span>{fullname}</span>
               <br />
@@ -39,7 +39,7 @@ class Contact extends Component {
               <span>{email}</span>
             </p>
           </div>
-          <div className="col download ">
+          <div className="download">
             <p>
               <a href={resumeDownload} className="button" target="_blank">
                 <i className="fa fa-download"></i>Resume

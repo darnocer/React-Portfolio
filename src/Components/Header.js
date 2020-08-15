@@ -55,6 +55,11 @@ class Header extends Component {
                 Contact
               </a>
             </li>
+            <li>
+              <a className="smoothscroll" href="#tuf">
+                #TUF
+              </a>
+            </li>
           </ul>
         </nav>
 

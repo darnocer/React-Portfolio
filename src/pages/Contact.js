@@ -31,7 +31,7 @@ class Contact extends Component {
               <br />
               <i class="fas fa-map-marker-alt"></i>&nbsp;
               <span>
-                {city} {state}, {zip}
+                {city}, {state}
               </span>
               <br />
               <span>{phone}</span>

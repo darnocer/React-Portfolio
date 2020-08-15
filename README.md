@@ -35,16 +35,11 @@ can use as is or style to your heart's desire
 _in progress_
 
 - Replace skills with technologies
-- fix portfolio image size
-- add source code links to projects
 - add non-profit work
 - add contact form
 - favicon
-- add other projects
 - fix the link icon placement on portfolio images
 - update icon / button hover color
-- hamburger icon (mobile) color
-- launch resume in new window
 - styling for contact section
 - change fonts
 - refactoring - smaller components, remove unused variables

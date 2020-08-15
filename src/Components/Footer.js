@@ -21,7 +21,7 @@ class Footer extends Component {
             <ul className="social-links">{networks}</ul>
 
             <ul className="copyright">
-              <li>&copy; 2020 Darian Nocera</li>
+              <li>&copy; 2020 Darian Nocera • All Rights Reserved</li>
             </ul>
           </div>
           <div id="go-top">

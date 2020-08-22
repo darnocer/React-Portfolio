@@ -34,7 +34,10 @@ class Contact extends Component {
                 {city}, {state}
               </span>
               <br />
-              <span>{phone}</span>
+              <span>
+                <i class="fas fa-phone-alt"></i>&nbsp;
+                {phone}
+              </span>
               <br />
               <a href="mailto:darian.nocera26@gmail.com">
                 <span>{email}</span>

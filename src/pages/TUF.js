@@ -43,34 +43,6 @@ class TUF extends Component {
           </div>
         </div>
       </section>
-
-      // <section id="tuf" className="container  ">
-      //   <div className="row">
-      //     <div className="col">
-      //       <h2>The Underdog Foundationn</h2>
-      //     </div>
-      //   </div>
-
-      //   <div className="row">
-      //     <div className="column">
-      //       <img
-      //         src="images/portfolio/tuflogo.png"
-      //         alt="TUF Logo"
-      //         className="float-left"
-      //       />
-      //       <p className="clear-float">
-      //         I am a proud member of{" "}
-      //         <a href="http://www.theunderdogfoundation.org" target="_blank">
-      //           <b>The Underdog Foundation</b>
-      //         </a>
-      //         , a 501(c)(3) Non-Profit Organization that uplifts local
-      //         businesses in the Denver area by providing services such as web
-      //         design, photography, and more completely free of charge. Let's get
-      //         to work!
-      //       </p>
-      //     </div>
-      //   </div>
-      // </section>
     );
   }
 }

@@ -28,9 +28,11 @@ ul#nav li.current a,
 }
 
 /* centering contact text  */
-.contact-details,
 .download,
-#contact h2 {
+#contact h2,
+.address,
+#contact .col,
+.center {
   text-align: center !important;
 }
 
@@ -64,11 +66,13 @@ header .scrolldown a:hover {
   color: var(--accent-color);
 }
 
+/* skills heading underline color */
 #resume h1 span {
   border-bottom: 3px solid var(--accent-color);
   padding-bottom: 6px;
 }
 
+/* link colors */
 #about a:hover,
 #about a:focus,
 #contact a:hover,
@@ -89,10 +93,12 @@ header .scrolldown a:hover {
   color: var(--accent-color);
 }
 
+/* go to top icon hover color  */
 #go-top a:hover {
   background-color: var(--accent-color);
 }
 
+/* potfolio link icons */
 .link-icon a {
   color: white;
 }
@@ -101,6 +107,7 @@ header .scrolldown a:hover {
   color: var(--accent-color);
 }
 
+/* postfolio image size */
 .portfolio-item .item-wrap {
   max-height: 150px;
   min-height: 150px;

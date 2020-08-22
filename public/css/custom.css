@@ -2,41 +2,63 @@
   --accent-color: #5d87b3;
 }
 
+/* Show profile pic on mobile  */
+@media only screen and (max-width: 767px) {
+  #about .profile-pic {
+    width: 114px !important;
+    height: 114px !important;
+    margin: 12px !important;
+    display: block !important;
+    float: left;
+    position: relative;
+    top: 20px;
+  }
+}
+
+/* Add background to navbar */
 #nav-wrap {
   background-color: #333 !important;
 }
 
+/* Update color for active links */
 ul#nav li.current a,
 .pagination .current,
 .pagination .current:hover {
   color: var(--accent-color);
 }
 
+/* centering contact text  */
 .contact-details,
 .download,
 #contact h2 {
   text-align: center !important;
 }
 
+/* Color for header text  */
 header .banner-text h3 {
   color: #fff !important;
-  /* font: 18px/1.9em "Bree Serif", serif !important; */
   text-shadow: 0px 1px 2px rgba(0, 0, 0, 0.5);
 }
 
+/* Color for job role in header text  */
 header .banner-text h3 span {
-  /* font: 18px/1.9em "Crete Round", serif !important; */
   color: #000 !important;
   text-shadow: 0px 1px 2px rgba(0, 0, 0, 0.5);
 }
 
+/* more spcaing between social network icons */
+header .social-spacing {
+  margin-right: 20px;
+}
+
+/* opacity for better readibility of header  */
 .banner-bg {
   background-color: #333;
-  /* border: 1px solid var(--accent-color); */
   background: rgba(51, 51, 51, 0.5);
   padding: 10px;
 }
 
+/* icon hover color  */
 header .social li a:hover,
 header .scrolldown a:hover {
   color: var(--accent-color);
@@ -134,4 +156,12 @@ header .scrolldown a:hover {
   position: relative;
   width: 100%;
   /* border-radius: 100%; */
+}
+
+#about p,
+#contact p,
+#tuf p {
+  line-height: 30px;
+  color: #7a7a7a;
+  text-align: justify;
 }

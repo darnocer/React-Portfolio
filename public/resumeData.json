@@ -32,6 +32,11 @@
         "name": "github",
         "url": "https://github.com/darnocer",
         "className": "fab fa-github"
+      },
+      {
+        "name": "instagram",
+        "url": "https://www.instagram.com/tufdarian/",
+        "className": "fab fa-instagram"
       }
     ]
   },

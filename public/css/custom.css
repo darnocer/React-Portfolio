@@ -27,8 +27,9 @@ h2 {
 }
 
 #portfolio h1 {
-  font: 22px/30px "opensans-regular", sans-serif !important;
+  font: 22px/30px "Open Sans", sans-serif !important;
   text-transform: none;
+  letter-spacing: -1px;
 }
 
 #portfolio h2 {
@@ -69,7 +70,7 @@ header .banner-text h3 {
 
 /* Color for job role in header text  */
 header .banner-text h3 span {
-  color: #222 !important;
+  color: #eee !important;
   text-shadow: 0px 0px 1px rgba(0, 0, 0, 0.5);
 }
 

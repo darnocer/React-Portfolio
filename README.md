@@ -37,9 +37,7 @@ can use as is or style to your heart's desire
 _in progress_
 
 - Replace skills with technologies
-- add contact form
-- favicon
-- change fonts
+- Add contact form
 - refactoring - smaller components, remove unused variables
 
 ## Credits

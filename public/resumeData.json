@@ -15,7 +15,7 @@
       "state": "CO",
       "zip": "80211"
     },
-    "website": "",
+    "website": "https://www.dariannocera.com/",
     "resumedownload": "https://drive.google.com/file/d/1xhq5b1DZ662dLdpcO47qGW8zQI7gD9cM/view",
     "social": [
       {
@@ -140,5 +140,10 @@
         "source": "https://github.com/darnocer/Node.js-and-ES6-README-Generator"
       }
     ]
+  },
+  "volunteer": {
+    "organization": "The Underdog Foundation",
+    "website": "https://theunderdogfoundation.org/",
+    "description": "a 501(c)(3) Non-Profit Organization that uplifts local businesses in the Denver area by providing services such as web design, photography, and more completely free of charge. Let's get to work!"
   }
 }

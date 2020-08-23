@@ -2,8 +2,9 @@
   --accent-color: #5d87b3;
 }
 
-/* Show profile pic on mobile  */
+/* MOBILE  */
 @media only screen and (max-width: 767px) {
+  /* Show profile pic on mobile  */
   #about .profile-pic {
     width: 114px !important;
     height: 114px !important;
@@ -14,88 +15,20 @@
     top: 20px;
   }
 
-  #tuf .logo {
+  /* hide TUF logo  */
+  #tuf img {
     display: none;
   }
 }
 
+/* GENERAL */
+
+/* heading styling  */
 h2 {
   font: 22px/30px "opensans-regular", sans-serif !important;
   margin-bottom: 12px;
   font-size: 28px;
   line-height: 36px;
-}
-
-#portfolio h1 {
-  font: 22px/30px "Open Sans", sans-serif !important;
-  text-transform: none;
-  letter-spacing: -1px;
-}
-
-#portfolio h2 {
-  font: 15px/24px "opensans-regular", sans-serif !important;
-  text-transform: uppercase;
-  letter-spacing: 1px;
-  text-align: center;
-  margin-bottom: 30px;
-  color: #95a3a3;
-}
-
-/* Add background to navbar */
-#nav-wrap {
-  background-color: #333 !important;
-}
-
-/* Update color for active links */
-ul#nav li.current a,
-.pagination .current,
-.pagination .current:hover {
-  color: var(--accent-color);
-}
-
-/* centering contact text  */
-.download,
-#contact h2,
-.address,
-#contact .col,
-.center {
-  text-align: center !important;
-}
-
-/* Color for header text  */
-header .banner-text h3 {
-  color: #fff !important;
-  text-shadow: 0px 1px 2px rgba(0, 0, 0, 0.5);
-}
-
-/* Color for job role in header text  */
-header .banner-text h3 span {
-  color: #eee !important;
-  text-shadow: 0px 0px 1px rgba(0, 0, 0, 0.5);
-}
-
-/* more spcaing between social network icons */
-header .social-spacing {
-  margin-right: 20px;
-}
-
-/* opacity for better readibility of header  */
-.banner-bg {
-  background-color: #333;
-  background: rgba(51, 51, 51, 0.5);
-  padding: 10px;
-}
-
-/* icon hover color  */
-header .social li a:hover,
-header .scrolldown a:hover {
-  color: var(--accent-color);
-}
-
-/* skills heading underline color */
-#resume h1 span {
-  border-bottom: 3px solid var(--accent-color);
-  padding-bottom: 6px;
 }
 
 /* link colors */
@@ -119,9 +52,112 @@ header .scrolldown a:hover {
   color: var(--accent-color);
 }
 
+/* paragraph text  */
+#about p,
+#contact p,
+#tuf p {
+  line-height: 30px;
+  color: #7a7a7a;
+  text-align: justify;
+}
+
 /* go to top icon hover color  */
 #go-top a:hover {
   background-color: var(--accent-color);
+}
+
+/* GRID */
+.columns {
+  margin-left: -0.75rem;
+  margin-right: -0.75rem;
+  margin-top: -0.75rem;
+}
+
+.column {
+  display: block;
+  flex-basis: 0;
+  flex-grow: 1;
+  flex-shrink: 1;
+  padding: 0.75rem;
+}
+
+/* floats  */
+
+.float-left {
+  float: left;
+}
+
+.float-right {
+  float: right;
+}
+
+.clear-float {
+  float: none;
+}
+
+/* NAV  */
+
+/* Add background to navbar */
+#nav-wrap {
+  background-color: #333 !important;
+}
+
+/* Update color for active links */
+ul#nav li.current a,
+.pagination .current,
+.pagination .current:hover {
+  color: var(--accent-color);
+}
+
+/* HEADER  */
+
+/* Color for header text  */
+header .banner-text h3 {
+  color: #fff !important;
+  text-shadow: 0px 1px 2px rgba(0, 0, 0, 0.5);
+}
+
+/* Color for job role in header text  */
+header .banner-text h3 span {
+  color: #eee !important;
+  text-shadow: 0px 0px 1px rgba(0, 0, 0, 0.5);
+}
+
+/* more spcaing between social network icons */
+header .social-spacing {
+  margin-right: 20px;
+}
+
+/* icon hover color  */
+header .social li a:hover,
+header .scrolldown a:hover {
+  color: var(--accent-color);
+}
+
+/* opacity for better readibility of header  */
+.banner-bg {
+  background-color: #333;
+  background: rgba(51, 51, 51, 0.5);
+  padding: 10px;
+}
+
+/* PORTFOLIO  */
+
+/* updated projects header to use h1  */
+#portfolio h1 {
+  font: 22px/30px "Open Sans", sans-serif !important;
+  text-transform: none;
+  letter-spacing: -1px;
+}
+
+/* subtitles in projects use h2 */
+#portfolio h2 {
+  font: 15px/24px "opensans-regular", sans-serif !important;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  text-align: center;
+  margin-bottom: 30px;
+  color: #95a3a3;
 }
 
 /* potfolio link icons */
@@ -144,55 +180,40 @@ header .scrolldown a:hover {
   width: 150%;
 }
 
+/* SKILLS  */
+
+/* skills heading underline color */
+#resume h1 span {
+  border-bottom: 3px solid var(--accent-color);
+  padding-bottom: 6px;
+}
+
+/* CONTACT  */
+
+/* centering contact text  */
+.download,
+#contact h2,
+.address,
+#contact .col,
+.center {
+  text-align: center !important;
+}
+
+/* contact section  */
 #contact {
   padding: 30px;
 }
 
+/* TUF  */
+
+/* logo for TUF  */
 #tuf img {
-  width: 25%;
   margin: 10px;
-}
-
-.columns {
-  margin-left: -0.75rem;
-  margin-right: -0.75rem;
-  margin-top: -0.75rem;
-}
-
-.column {
-  display: block;
-  flex-basis: 0;
-  flex-grow: 1;
-  flex-shrink: 1;
-  padding: 0.75rem;
+  width: 100%;
 }
 
 #tuf .column {
   max-width: 80vh;
   position: relative;
   left: 10%;
-}
-
-.float-left {
-  float: left;
-}
-
-.float-right {
-  float: right;
-}
-
-.clear-float {
-  float: none;
-}
-
-#tuf .logo {
-  width: 100%;
-}
-
-#about p,
-#contact p,
-#tuf p {
-  line-height: 30px;
-  color: #7a7a7a;
-  text-align: justify;
 }

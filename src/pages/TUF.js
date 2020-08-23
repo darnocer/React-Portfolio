@@ -31,7 +31,7 @@ class TUF extends Component {
 
             <p>
               {" "}
-              I am a proud member of{" "}
+              I am a proud team member of{" "}
               <a href="http://www.theunderdogfoundation.org" target="_blank">
                 <b>The Underdog Foundation</b>
               </a>

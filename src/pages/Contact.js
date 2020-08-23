@@ -32,12 +32,7 @@ class Contact extends Component {
               <br />
               <i class="fas fa-map-marker-alt"></i>&nbsp;
               <span>
-                {city}, {state}
-              </span>
-              <br />
-              <span>
-                <i class="fas fa-phone"></i>&nbsp;
-                {phone}
+                {city}, {state} {zip}
               </span>
               <br />
               <i class="fa fa-envelope"></i>&nbsp;

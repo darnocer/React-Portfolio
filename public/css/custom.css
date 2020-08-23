@@ -20,10 +20,24 @@
 }
 
 h2 {
-  font-family: "opensans-regular", sans-serif !important;
+  font: 22px/30px "opensans-regular", sans-serif !important;
   margin-bottom: 12px;
   font-size: 28px;
   line-height: 36px;
+}
+
+#portfolio h1 {
+  font: 22px/30px "opensans-regular", sans-serif !important;
+  text-transform: none;
+}
+
+#portfolio h2 {
+  font: 15px/24px "opensans-regular", sans-serif !important;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  text-align: center;
+  margin-bottom: 30px;
+  color: #95a3a3;
 }
 
 /* Add background to navbar */
@@ -180,18 +194,4 @@ header .scrolldown a:hover {
   line-height: 30px;
   color: #7a7a7a;
   text-align: justify;
-}
-
-#portfolio h1 {
-  font: 22px/30px "opensans-semibold", sans-serif;
-  text-transform: none;
-}
-
-#portfolio h2 {
-  font: 15px/24px "opensans-semibold", sans-serif;
-  text-transform: uppercase;
-  letter-spacing: 1px;
-  text-align: center;
-  margin-bottom: 30px;
-  color: #95a3a3;
 }

@@ -34,15 +34,20 @@ class Portfolio extends Component {
       <section id="portfolio">
         <div className="row">
           <div className="twelve columns collapsed">
-            <h1>Check Out My Development Projects</h1>
-
+            <h1>Development Project Highlights</h1>
             <div
               id="portfolio-wrapper"
               className="bgrid-thirds s-bgrid-thirds cf">
               {projects}
             </div>
             <h1>
-              Also check out my personal documentation compilation at{" "}
+              More projects available on{" "}
+              <a href="https://github.com/darnocer" target="_blank">
+                Github
+              </a>
+            </h1>
+            <h1>
+              Personal documentation compilation Project:&nbsp;
               <a href="https://github.com/darnocers-tips" target="_blank">
                 THE VAULT
               </a>

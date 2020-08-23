@@ -19,6 +19,10 @@
   }
 }
 
+h2 {
+  font-family: "opensans-regular", sans-serif;
+}
+
 /* Add background to navbar */
 #nav-wrap {
   background-color: #333 !important;

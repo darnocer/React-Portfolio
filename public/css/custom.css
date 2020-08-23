@@ -13,6 +13,10 @@
     position: relative;
     top: 20px;
   }
+
+  #tuf .logo {
+    display: none;
+  }
 }
 
 /* Add background to navbar */
@@ -160,9 +164,7 @@ header .scrolldown a:hover {
 }
 
 #tuf .logo {
-  position: relative;
   width: 100%;
-  /* border-radius: 100%; */
 }
 
 #about p,

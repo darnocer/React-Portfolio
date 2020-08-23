@@ -28,7 +28,6 @@ class TUF extends Component {
           </div>
           <div className="nine columns main-col">
             <h2>The Underdog Foundationn</h2>
-
             <p>
               {" "}
               I am a proud team member of{" "}

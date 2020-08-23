@@ -17,11 +17,11 @@ class Portfolio extends Component {
               </div>
               <div className="link-icon">
                 <a href={projects.url} title={projects.title} target="_blank">
-                  <i className="fa fa-link"></i>
+                  <i className="fa fa-link fa-lg"></i>
                 </a>
-                &nbsp;
+                &nbsp;&nbsp;&nbsp;
                 <a href={projects.source} title="Source Code" target="_blank">
-                  <i class="fas fa-code"></i>
+                  <i class="fas fa-code fa-lg"></i>
                 </a>
               </div>
             </div>

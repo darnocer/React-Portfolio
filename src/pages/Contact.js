@@ -25,14 +25,14 @@ class Contact extends Component {
             <p className="address">
               <span>{fullname}</span>
               <br />
-              <i class="fas fa-map-marker-alt"></i>&nbsp;
+              <i className="fas fa-map-marker-alt"></i>&nbsp;
               <span>
                 {city}, {state} {zip}
               </span>
               <br />
               <span>Email is the best way to reach me!</span>
               <br />
-              <i class="fa fa-envelope"></i>&nbsp;
+              <i className="fa fa-envelope"></i>&nbsp;
               <a href="mailto:darian.nocera26@gmail.com">
                 <span>{email}</span>
               </a>
@@ -40,7 +40,7 @@ class Contact extends Component {
             <div className="download">
               <p className="center">
                 <a href={resumeDownload} className="button" target="_blank">
-                  <i class="far fa-file-pdf"></i>Resume
+                  <i className="far fa-file-pdf"></i>Resume
                 </a>
               </p>
             </div>

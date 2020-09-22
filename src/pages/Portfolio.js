@@ -2,6 +2,7 @@ import React, { Component } from "react";
 
 class Portfolio extends Component {
   render() {
+    console.log(this.props);
     if (this.props.data) {
       var projects = this.props.data.projects.map(function (projects) {
         var projectImage = "images/portfolio/" + projects.image;
@@ -12,17 +13,21 @@ class Portfolio extends Component {
               <div className="overlay">
                 <div className="portfolio-item-meta">
                   <h5>{projects.title}</h5>
-                  <p>{projects.category}</p>
+                  <p>{projects.description}</p>
                 </div>
               </div>
               <div className="link-icon">
-                <a href={projects.url} title={projects.title} target="_blank">
-                  <i className="fa fa-link fa-lg"></i>
-                </a>
+                {projects.url ? (
+                  <a href={projects.url} title={projects.title} target="_blank">
+                    <i className="fa fa-link fa-lg"></i>
+                  </a>
+                ) : null}
                 &nbsp;&nbsp;&nbsp;
-                <a href={projects.source} title="Source Code" target="_blank">
-                  <i class="fas fa-code fa-lg"></i>
-                </a>
+                {projects.source ? (
+                  <a href={projects.source} title="Source Code" target="_blank">
+                    <i className="fas fa-code fa-lg"></i>
+                  </a>
+                ) : null}
               </div>
             </div>
           </div>
@@ -35,6 +40,7 @@ class Portfolio extends Component {
         <div className="row">
           <div className="twelve columns collapsed">
             <h1>Development Projects</h1>
+
             <div
               id="portfolio-wrapper"
               className="bgrid-thirds s-bgrid-thirds cf">

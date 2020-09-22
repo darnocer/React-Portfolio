@@ -3,6 +3,7 @@
 # dependencies
 /node_modules
 /unused
+/src/pages/PortfolioNew.js
 
 # testing
 /coverage

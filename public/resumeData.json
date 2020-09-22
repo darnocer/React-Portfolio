@@ -100,65 +100,73 @@
     "projects": [
       {
         "title": "HelpersConnect",
-        "category": "A MERN-stack app that allows charitable organizations to manage events and volunteers.",
+        "description": "A MERN-stack app that allows charitable organizations to manage events and volunteers.",
         "image": "helpersconnect.png",
         "url": "https://project-03-volunteer-calendar.herokuapp.com/",
-        "source": "https://github.com/darnocer/Project-03-volunteer-calendar"
+        "source": "https://github.com/darnocer/Project-03-volunteer-calendar",
+        "category": ["all", "design"]
       },
       {
         "title": "Code Connect",
-        "category": "A full-stack social platform for developers to connect to meet, collaborate, and learn",
+        "description": "A full-stack social platform for developers to connect to meet, collaborate, and learn",
         "image": "codeconnect.png",
         "url": "https://project-02-code-connect.herokuapp.com/",
-        "source": "https://github.com/darnocer/Project-02-Code-Connect"
+        "source": "https://github.com/darnocer/Project-02-Code-Connect",
+        "category": ["all", "design"]
       },
       {
         "title": "Date Nite",
-        "category": "A one-click solution to planning dates utilizing server-side APIs.",
+        "description": "A one-click solution to planning dates utilizing server-side APIs.",
         "image": "datenite.png",
         "url": "https://darnocer.github.io/Project-01-Date-Nite-App/",
-        "source": "https://github.com/darnocer/Project-01-Date-Nite-App"
+        "source": "https://github.com/darnocer/Project-01-Date-Nite-App",
+        "category": ["all", "development"]
       },
       {
         "title": "Read-Da-Book",
-        "category": "An application to manage a reading list of books on a SQL database rendered with Handlebars.",
+        "description": "An application to manage a reading list of books on a SQL database rendered with Handlebars.",
         "image": "readinglist.png",
-        "url": "https://obscure-scrubland-69219.herokuapp.com/"
+        "url": "https://obscure-scrubland-69219.herokuapp.com/",
+        "source": "https://github.com/darnocer/Node-Express-Handlebars-Reading-List",
+        "category": ["all", "development"]
       },
       {
         "title": "Weather Dashboard",
-        "category": "A weather application utilizing server-side APIs and persistent data via local storage.",
+        "description": "A weather application utilizing server-side APIs and persistent data via local storage.",
         "image": "dashboard.png",
         "url": "https://darnocer.github.io/Server-Side-APIs-Weather-Dashboard/",
-        "source": "https://github.com/darnocer/Server-Side-APIs-Weather-Dashboard"
+        "source": "https://github.com/darnocer/Server-Side-APIs-Weather-Dashboard",
+        "category": ["all", "development"]
       },
       {
         "title": "Code Quiz",
-        "category": "A vanilla Javascript quiz about vanilla Javascript.",
+        "description": "A vanilla Javascript quiz about vanilla Javascript.",
         "image": "codequiz.png",
         "url": "https://darnocer.github.io/Web-APIs-Code-Quiz/",
-        "source": "https://github.com/darnocer/Web-APIs-Code-Quiz"
+        "source": "https://github.com/darnocer/Web-APIs-Code-Quiz",
+        "category": ["all", "development"]
       },
       {
         "title": "Read Me Generator",
-        "category": "A CLI application to generate README files utilizing Node.js.",
+        "description": "A CLI application to generate README files utilizing Node.js.",
         "image": "readmegen.png",
-        "url": "https://darnocer.github.io/Node.js-and-ES6-README-Generator/",
-        "source": "https://github.com/darnocer/Node.js-and-ES6-README-Generator"
+        "source": "https://github.com/darnocer/Node.js-and-ES6-README-Generator",
+        "category": ["all", "development"]
       },
       {
         "title": "Wayout Back",
-        "category": "A simple store front with shopping cart functionality built with javascript",
+        "description": "A simple store front with shopping cart functionality built with javascript",
         "image": "shoppingcart.png",
         "url": "https://darnocer.github.io/Shopping-Cart/",
-        "source": "https://github.com/darnocer/Shopping-Cart"
+        "source": "https://github.com/darnocer/Shopping-Cart",
+        "category": ["all", "development"]
       },
       {
         "title": "Employee Tracker",
-        "category": "A CLI CMS for employee management utilizing node and MySQL.",
+        "description": "A CLI CMS for employee management utilizing node and MySQL.",
         "image": "employeetracker.png",
-        "url": "https://darnocer.github.io/MySQL-Employee-Tracker/",
-        "source": "https://github.com/darnocer/MySQL-Employee-Tracker"
+        "source": "https://github.com/darnocer/MySQL-Employee-Tracker",
+        "tag": ["all", "development"]
       }
     ]
   },

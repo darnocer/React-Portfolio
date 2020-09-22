@@ -180,6 +180,17 @@ header .scrolldown a:hover {
   width: 150%;
 }
 
+.filters {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.filters .active,
+.separator {
+  font-weight: bold;
+  color: #333;
+}
+
 /* SKILLS  */
 
 /* skills heading underline color */

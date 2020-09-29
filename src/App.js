@@ -31,7 +31,7 @@ function App() {
     });
   }
 
-  console.log(resumeData);
+  // console.log(resumeData);
 
   return (
     <div className="App">

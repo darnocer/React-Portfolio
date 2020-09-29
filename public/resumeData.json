@@ -104,7 +104,7 @@
         "image": "helpersconnect.png",
         "url": "https://project-03-volunteer-calendar.herokuapp.com/",
         "source": "https://github.com/darnocer/Project-03-volunteer-calendar",
-        "category": ["all", "design"]
+        "category": ["all", "development"]
       },
       {
         "title": "Code Connect",
@@ -112,7 +112,7 @@
         "image": "codeconnect.png",
         "url": "https://project-02-code-connect.herokuapp.com/",
         "source": "https://github.com/darnocer/Project-02-Code-Connect",
-        "category": ["all", "design"]
+        "category": ["all", "development"]
       },
       {
         "title": "Date Nite",
@@ -166,7 +166,7 @@
         "description": "A CLI CMS for employee management utilizing node and MySQL.",
         "image": "employeetracker.png",
         "source": "https://github.com/darnocer/MySQL-Employee-Tracker",
-        "tag": ["all", "development"]
+        "category": ["all", "development"]
       }
     ]
   },

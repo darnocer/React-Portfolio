@@ -12,10 +12,6 @@ import TUF from "./pages/TUF";
 function App() {
   const [resumeData, setResumeData] = useState({});
 
-  //   ReactGA.initialize("UA-110570651-1");
-  //   ReactGA.pageview(window.location.pathname);
-  // }
-
   useEffect(() => {
     getResumeData();
   }, []);
@@ -34,6 +30,8 @@ function App() {
       },
     });
   }
+
+  console.log(resumeData);
 
   return (
     <div className="App">

@@ -1,50 +1,91 @@
-import React, { Component } from "react";
+import React, { useState, useEffect } from "react";
 
-class Portfolio extends Component {
-  render() {
-    console.log(this.props);
-    if (this.props.data) {
-      var projects = this.props.data.projects.map(function (projects) {
-        var projectImage = "images/portfolio/" + projects.image;
-        return (
-          <div key={projects.title} className="columns portfolio-item">
-            <div className="item-wrap">
-              <img alt={projects.title} src={projectImage} />
-              <div className="overlay">
-                <div className="portfolio-item-meta">
-                  <h5>{projects.title}</h5>
-                  <p>{projects.description}</p>
-                </div>
-              </div>
-              <div className="link-icon">
-                {projects.url ? (
-                  <a href={projects.url} title={projects.title} target="_blank">
-                    <i className="fa fa-link fa-lg"></i>
-                  </a>
-                ) : null}
-                &nbsp;&nbsp;&nbsp;
-                {projects.source ? (
-                  <a href={projects.source} title="Source Code" target="_blank">
-                    <i className="fas fa-code fa-lg"></i>
-                  </a>
-                ) : null}
+function Portfolio(props) {
+  var portfolio = props.data;
+  console.log(portfolio);
+
+  const [filter, setFilter] = useState("all");
+  // const [projects, setProjects] = useState([]);
+
+  // useEffect(() => {
+  //   setProjects(portfolio);
+  // }, []);
+
+  // console.log(projects);
+
+  // useEffect(() => {
+  //   setProjects([]);
+  //   const filtered = props.data.projects.map((p) => ({
+  //     ...p,
+  //     filtered: p.category.includes(filter),
+  //   }));
+  //   setProjects(filtered);
+  // }, [filter]);
+
+  if (props.data) {
+    var projectCards = props.data.projects.map(function (p) {
+      var projectImage = "images/portfolio/" + p.image;
+      return (
+        <div key={p.title} className="columns portfolio-item">
+          <div className="item-wrap">
+            <img alt={p.title} src={projectImage} />
+            <div className="overlay">
+              <div className="portfolio-item-meta">
+                <h5>{p.title}</h5>
+                <p>{p.description}</p>
               </div>
             </div>
+            <div className="link-icon">
+              {p.url ? (
+                <a href={p.url} title={p.title} target="_blank">
+                  <i className="fa fa-link fa-lg"></i>
+                </a>
+              ) : null}
+              &nbsp;&nbsp;&nbsp;
+              {p.source ? (
+                <a href={p.source} title="Source Code" target="_blank">
+                  <i className="fas fa-code fa-lg"></i>
+                </a>
+              ) : null}
+            </div>
           </div>
-        );
-      });
-    }
+        </div>
+      );
+    });
+  }
 
-    return (
+  return (
+    <>
       <section id="portfolio">
         <div className="row">
           <div className="twelve columns collapsed">
-            <h1>Development Projects</h1>
-
+            <h1>Projects</h1>
+            <div className="filters">
+              <a
+                href="/#"
+                className={filter === "all" ? "active" : null}
+                onClick={() => setFilter("all")}>
+                All
+              </a>{" "}
+              <span className="separator">|</span>
+              <a
+                href="/#"
+                className={filter === "development" ? "active" : null}
+                onClick={() => setFilter("development")}>
+                Development
+              </a>{" "}
+              <span className="separator">|</span>
+              <a
+                href="/#"
+                className={filter === "design" ? "active" : null}
+                onClick={() => setFilter("design")}>
+                Design
+              </a>
+            </div>
             <div
               id="portfolio-wrapper"
               className="bgrid-thirds s-bgrid-thirds cf">
-              {projects}
+              {projectCards}
             </div>
             <h2>
               More projects available on{" "}
@@ -61,8 +102,8 @@ class Portfolio extends Component {
           </div>
         </div>
       </section>
-    );
-  }
+    </>
+  );
 }
 
 export default Portfolio;

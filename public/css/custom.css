@@ -202,6 +202,24 @@ header .scrolldown a:hover {
   padding-bottom: 6px;
 }
 
+#skills {
+  background-color: #ffffff;
+}
+
+#skills h1 {
+  font-family: "opensans", sans-serif;
+  text-align: center;
+  font-size: 28px;
+}
+
+#skills td {
+  padding: 50px;
+}
+#skills table {
+  margin-left: auto;
+  margin-right: auto;
+}
+
 /* CONTACT  */
 
 /* centering contact text  */

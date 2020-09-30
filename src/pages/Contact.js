@@ -30,7 +30,10 @@ class Contact extends Component {
                 {city}, {state} {zip}
               </span>
               <br />
-              <span>Email is the best way to reach me!</span>
+              <span>
+                I am always looking to take on new projects. Shoot me an email
+                if you want to connect!
+              </span>
               <br />
               <i className="fa fa-envelope"></i>&nbsp;
               <a href="mailto:darian.nocera26@gmail.com">

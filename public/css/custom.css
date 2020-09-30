@@ -206,6 +206,7 @@ header .scrolldown a:hover {
 
 #skills {
   background-color: #ffffff;
+  width: 100%;
 }
 
 #skills h1 {
@@ -240,6 +241,7 @@ header .scrolldown a:hover {
 
 .App {
   background-color: #fff !important;
+  width: 100% !important;
 }
 
 /* CONTACT  */

@@ -167,6 +167,12 @@
         "image": "employeetracker.png",
         "source": "https://github.com/darnocer/MySQL-Employee-Tracker",
         "category": ["all", "development"]
+      },
+      {
+        "title": "Design Projects",
+        "description": "COMING SOON",
+        "image": "design.png",
+        "category": ["design"]
       }
     ]
   },

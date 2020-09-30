@@ -213,11 +213,30 @@ header .scrolldown a:hover {
 }
 
 #skills td {
-  padding: 50px;
+  padding: 30px 50px 30px 50px;
 }
 #skills table {
   margin-left: auto;
   margin-right: auto;
+}
+
+#skills h2,
+#skills td,
+#skills p {
+  text-align: center;
+  font-size: 16px;
+}
+
+#skills span {
+  text-align: center !important;
+}
+
+.table-container {
+  margin: 25px 100px 25px 100px;
+}
+
+.App {
+  background-color: #fff !important;
 }
 
 /* CONTACT  */
@@ -248,4 +267,8 @@ header .scrolldown a:hover {
   max-width: 80vh;
   position: relative;
   left: 10%;
+}
+
+footer {
+  background-color: #0f0f0f;
 }

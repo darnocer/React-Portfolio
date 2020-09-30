@@ -49,7 +49,8 @@ class Skills extends Component {
                   </h2>
                   <p>
                     SquareSpace • GoDaddy • UI/UX heuristics and principles •
-                    Adobe Illustrator • Adobe Photoshop • Balsamiq
+                    Mobile-Responsiveness • Adobe Illustrator • Adobe Photoshop
+                    • Balsamiq
                   </p>
                 </td>
                 <td>

@@ -145,7 +145,9 @@ header .scrolldown a:hover {
 
 /* updated projects header to use h1  */
 #portfolio h1 {
-  font: 22px/30px "Open Sans", sans-serif !important;
+  font-family: "opensans", sans-serif;
+  text-align: center;
+  font-size: 28px;
   text-transform: none;
   letter-spacing: -1px;
 }
@@ -214,6 +216,7 @@ header .scrolldown a:hover {
 
 #skills td {
   padding: 30px 50px 30px 50px;
+  width: 50%;
 }
 #skills table {
   margin-left: auto;
@@ -227,8 +230,8 @@ header .scrolldown a:hover {
   font-size: 16px;
 }
 
-#skills span {
-  text-align: center !important;
+#skills {
+  padding-top: 40px;
 }
 
 .table-container {

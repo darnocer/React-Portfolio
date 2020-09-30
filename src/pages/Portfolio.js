@@ -88,7 +88,7 @@ function Portfolio(props) {
             </div>
             <div
               id="portfolio-wrapper"
-              className="bgrid-thirds s-bgrid-thirds cf">
+              className="bgrid-thirds s-bgrid-thirds cf centered">
               {projectCards}
             </div>
             <h2>

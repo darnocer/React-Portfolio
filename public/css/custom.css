@@ -202,6 +202,43 @@ header .scrolldown a:hover {
   padding-bottom: 6px;
 }
 
+#skills {
+  background-color: #ffffff;
+}
+
+#skills h1 {
+  font-family: "opensans", sans-serif;
+  text-align: center;
+  font-size: 28px;
+}
+
+#skills td {
+  padding: 30px 50px 30px 50px;
+}
+#skills table {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#skills h2,
+#skills td,
+#skills p {
+  text-align: center;
+  font-size: 16px;
+}
+
+#skills span {
+  text-align: center !important;
+}
+
+.table-container {
+  margin: 25px 100px 25px 100px;
+}
+
+.App {
+  background-color: #fff !important;
+}
+
 /* CONTACT  */
 
 /* centering contact text  */
@@ -230,4 +267,8 @@ header .scrolldown a:hover {
   max-width: 80vh;
   position: relative;
   left: 10%;
+}
+
+footer {
+  background-color: #0f0f0f;
 }

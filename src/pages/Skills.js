@@ -18,7 +18,7 @@ class Skills extends Component {
 
     return (
       <section id="skills">
-        <div className="table-container">
+        <div className="table-container desktop">
           <h1>Skills</h1>
           <table>
             <tbody>

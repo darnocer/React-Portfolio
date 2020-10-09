@@ -98,9 +98,9 @@ function Portfolio(props) {
               </a>
             </h2>
             <h2>
-              Personal documentation compilation Project:&nbsp;
-              <a href="https://github.com/darnocers-tips" target="_blank">
-                THE VAULT
+              I love writing about code! Check out some of my articles on &nbsp;
+              <a href="https://dev.to/darnocer" target="_blank">
+                DEV
               </a>
             </h2>
           </div>

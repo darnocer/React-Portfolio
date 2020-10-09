@@ -190,6 +190,21 @@ header .scrolldown a:hover {
   width: 150%;
 }
 
+/* portfolio animations */
+/* .portfolio-item {
+  animation-name: fadeInLeft;
+  animation-duration: 1s;
+}
+
+@keyframes fadeInLeft {
+  0% {
+    transform: translate3d(-50px, 0, 0);
+  }
+  100% {
+    transform: none;
+  }
+} */
+
 .filters {
   text-align: center;
   margin-bottom: 20px;

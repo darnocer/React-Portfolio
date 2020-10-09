@@ -29,9 +29,9 @@
         "className": "fab fa-github"
       },
       {
-        "name": "instagram",
-        "url": "https://www.instagram.com/tufdarian/",
-        "className": "fab fa-instagram"
+        "name": "dev.to",
+        "url": "https://dev.to/darnocer",
+        "className": "fab fa-dev"
       }
     ]
   },

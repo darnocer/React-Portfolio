@@ -137,6 +137,10 @@ ul#nav li.current a,
 
 /* HEADER  */
 
+header .banner-text h1 {
+  margin-bottom: 0px !important;
+}
+
 /* Color for header text  */
 header .banner-text h3 {
   color: #fff !important;

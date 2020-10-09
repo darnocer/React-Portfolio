@@ -5,7 +5,7 @@
     "occupation": "full stack web developer and designer",
     "description": "I love generating ideas, solving problems, and making things happen!",
     "image": "profilepic.png",
-    "bio": "I have always taken an interest in technology and design. I'm passionate about using these tools creatively to help others and make the world a better place. I love to motivate and inspire my peers to grow and succeed. When I'm not coding, you can find me camping, hiking, mountain biking, practicing yoga, writing, reading, tending to my plants, or traveling. The pic above was taken at 14,439 ft on Mt. Elbert, CO!",
+    "bio": "I have always taken an interest in technology and design. I'm passionate about using these tools creatively to inspire others and make the world a better place! When I'm not coding, you can find me camping, hiking, mountain biking, practicing yoga, writing, reading, tending to my plants, or traveling.",
     "contactmessage": "Holla @ Me",
     "email": "darian.nocera26@gmail.com",
     "phone": "(724) 831-6659",
@@ -104,7 +104,7 @@
         "image": "helpersconnect.png",
         "url": "https://project-03-volunteer-calendar.herokuapp.com/",
         "source": "https://github.com/darnocer/Project-03-volunteer-calendar",
-        "category": ["all", "development"]
+        "category": ["fullstack", "development"]
       },
       {
         "title": "Code Connect",
@@ -112,7 +112,7 @@
         "image": "codeconnect.png",
         "url": "https://project-02-code-connect.herokuapp.com/",
         "source": "https://github.com/darnocer/Project-02-Code-Connect",
-        "category": ["all", "development"]
+        "category": ["fullstack", "development"]
       },
       {
         "title": "Date Nite",
@@ -120,7 +120,7 @@
         "image": "datenite.png",
         "url": "https://darnocer.github.io/Project-01-Date-Nite-App/",
         "source": "https://github.com/darnocer/Project-01-Date-Nite-App",
-        "category": ["all", "development"]
+        "category": ["development"]
       },
       {
         "title": "Read-Da-Book",
@@ -128,7 +128,7 @@
         "image": "readinglist.png",
         "url": "https://obscure-scrubland-69219.herokuapp.com/",
         "source": "https://github.com/darnocer/Node-Express-Handlebars-Reading-List",
-        "category": ["all", "development"]
+        "category": ["development"]
       },
       {
         "title": "Weather Dashboard",
@@ -136,7 +136,7 @@
         "image": "dashboard.png",
         "url": "https://darnocer.github.io/Server-Side-APIs-Weather-Dashboard/",
         "source": "https://github.com/darnocer/Server-Side-APIs-Weather-Dashboard",
-        "category": ["all", "development"]
+        "category": ["development"]
       },
       {
         "title": "Code Quiz",
@@ -144,14 +144,14 @@
         "image": "codequiz.png",
         "url": "https://darnocer.github.io/Web-APIs-Code-Quiz/",
         "source": "https://github.com/darnocer/Web-APIs-Code-Quiz",
-        "category": ["all", "development"]
+        "category": ["development"]
       },
       {
         "title": "Read Me Generator",
         "description": "A CLI application to generate README files utilizing Node.js.",
         "image": "readmegen.png",
         "source": "https://github.com/darnocer/Node.js-and-ES6-README-Generator",
-        "category": ["all", "development"]
+        "category": ["development"]
       },
       {
         "title": "Wayout Back",
@@ -159,14 +159,14 @@
         "image": "shoppingcart.png",
         "url": "https://darnocer.github.io/Shopping-Cart/",
         "source": "https://github.com/darnocer/Shopping-Cart",
-        "category": ["all", "development"]
+        "category": ["development"]
       },
       {
         "title": "Employee Tracker",
         "description": "A CLI CMS for employee management utilizing node and MySQL.",
         "image": "employeetracker.png",
         "source": "https://github.com/darnocer/MySQL-Employee-Tracker",
-        "category": ["all", "development"]
+        "category": ["development"]
       },
       {
         "title": "Design Projects",

@@ -2,9 +2,9 @@
 
 ![last commit](https://img.shields.io/github/last-commit/darnocer/React-Portfolio?style=flat-square)
 
-## Link
+## Deployed App:
 
-http://www.dariannocera.com/
+[https://dariannocera.netlify.app/](https://dariannocera.netlify.app/)
 
 ## Description
 

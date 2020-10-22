@@ -1,0 +1,324 @@
+:root {
+  --accent-color: #37639a;
+}
+
+body {
+  position: absolute;
+}
+
+/* MOBILE  */
+@media only screen and (max-width: 767px) {
+  /* Show profile pic on mobile  */
+  #about .profile-pic {
+    width: 114px !important;
+    height: 114px !important;
+    margin: 12px !important;
+    display: block !important;
+    float: left;
+    position: relative;
+    top: 20px;
+  }
+
+  /* hide TUF logo  */
+  #tuf img {
+    display: none;
+  }
+
+  .desktop {
+    display: hidden;
+  }
+}
+
+/* GENERAL */
+
+/* heading styling  */
+h2 {
+  font: 22px/30px "opensans-regular", sans-serif !important;
+  margin-bottom: 12px;
+  font-size: 28px;
+  line-height: 36px;
+}
+
+/* link colors */
+
+#contact a,
+.filters a,
+#contact span.required,
+#resume a,
+#contact input:focus,
+#contact textarea:focus,
+#contact select:focus,
+#tuf a,
+.stats-tabs li a:hover {
+  color: var(--accent-color) !important;
+}
+
+#about a:hover,
+#about a:focus,
+#tuf a:hover,
+#tuf a:focus {
+  color: #eee !important;
+}
+
+#contact .button:hover {
+  color: #333 !important;
+}
+
+#contact a:hover,
+#contact a:focus {
+  color: #eee !important;
+}
+
+.filters a:hover {
+  color: #333 !important;
+}
+
+#portfolio a:hover,
+#porfolio a:focus {
+  color: var(--accent-color);
+}
+
+/* paragraph text  */
+#about p,
+#contact p,
+#tuf p {
+  line-height: 30px;
+  color: #7a7a7a;
+  text-align: justify;
+}
+
+/* go to top icon hover color  */
+#go-top a:hover {
+  background-color: var(--accent-color);
+}
+
+/* GRID */
+.columns {
+  margin-left: -0.75rem;
+  margin-right: -0.75rem;
+  margin-top: -0.75rem;
+}
+
+.column {
+  display: block;
+  flex-basis: 0;
+  flex-grow: 1;
+  flex-shrink: 1;
+  padding: 0.75rem;
+}
+
+/* floats  */
+
+.float-left {
+  float: left;
+}
+
+.float-right {
+  float: right;
+}
+
+.clear-float {
+  float: none;
+}
+
+/* NAV  */
+
+/* Add background to navbar */
+#nav-wrap {
+  background-color: #333 !important;
+}
+
+/* Update color for active links */
+ul#nav li.current a,
+.pagination .current,
+.pagination .current:hover {
+  color: var(--accent-color);
+}
+
+/* HEADER  */
+
+header .banner-text h1 {
+  margin-bottom: 0px !important;
+}
+
+/* Color for header text  */
+header .banner-text h3 {
+  color: #fff !important;
+  text-shadow: 0px 1px 2px rgba(0, 0, 0, 0.5);
+}
+
+/* Color for job role in header text  */
+header .banner-text h3 span {
+  color: #eee !important;
+  text-shadow: 0px 0px 1px rgba(0, 0, 0, 0.5);
+}
+
+/* more spcaing between social network icons */
+header .social-spacing {
+  margin-right: 20px;
+}
+
+/* icon hover color  */
+header .social li a:hover,
+header .scrolldown a:hover {
+  color: var(--accent-color);
+}
+
+/* opacity for better readibility of header  */
+.banner-bg {
+  background-color: #333;
+  background: rgba(51, 51, 51, 0.5);
+  padding: 10px;
+}
+
+/* PORTFOLIO  */
+
+/* updated projects header to use h1  */
+#portfolio h1 {
+  font-family: "opensans", sans-serif;
+  text-align: center;
+  font-size: 28px;
+  text-transform: none;
+  letter-spacing: -1px;
+}
+
+/* subtitles in projects use h2 */
+#portfolio h2 {
+  font: 15px/24px "opensans-regular", sans-serif !important;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  text-align: center;
+  margin-bottom: 30px;
+  color: #95a3a3;
+}
+
+/* potfolio link icons */
+.link-icon a {
+  color: white;
+}
+
+.link-icon a:hover {
+  color: var(--accent-color);
+}
+
+/* postfolio image size */
+.portfolio-item .item-wrap {
+  max-height: 175px;
+  min-height: 150px;
+}
+
+.portfolio-item .item-wrap img {
+  height: 175px;
+  width: 150%;
+}
+
+/* portfolio animations */
+/* .portfolio-item {
+  animation-name: fadeInLeft;
+  animation-duration: 1s;
+}
+
+@keyframes fadeInLeft {
+  0% {
+    transform: translate3d(-50px, 0, 0);
+  }
+  100% {
+    transform: none;
+  }
+} */
+
+.filters {
+  text-align: center;
+  margin-bottom: 20px;
+  font-family: "opensans-bold", sans-serif;
+  text-transform: uppercase;
+  font-size: 11px;
+  font-weight: normal !important;
+}
+
+.filters .active,
+.separator {
+  font-weight: bold;
+  color: #333 !important;
+}
+
+/* SKILLS  */
+
+/* skills heading underline color */
+#resume h1 span {
+  border-bottom: 3px solid var(--accent-color);
+  padding-bottom: 6px;
+}
+
+#skills {
+  background-color: #ffffff;
+  width: 100%;
+  padding-top: 40px;
+}
+
+#skills h1 {
+  font-family: "opensans", sans-serif;
+  text-align: center;
+  font-size: 28px;
+}
+
+#skills td {
+  padding: 30px 50px 30px 50px;
+  width: 50%;
+}
+#skills table {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#skills h2,
+#skills td,
+#skills p {
+  text-align: center;
+  font-size: 16px;
+}
+
+.table-container {
+  margin: 25px 100px 25px 100px;
+  overflow-x: auto;
+}
+
+.App {
+  background-color: #fff !important;
+  width: 100% !important;
+}
+
+/* CONTACT  */
+
+/* centering contact text  */
+.download,
+#contact h2,
+.address,
+#contact .col,
+.center {
+  text-align: center !important;
+}
+
+/* contact section  */
+#contact {
+  padding-top: 48px;
+  padding-bottom: 0px;
+}
+
+/* TUF  */
+
+/* logo for TUF  */
+#tuf img {
+  margin: 10px;
+  width: 100%;
+}
+
+#tuf .column {
+  max-width: 80vh;
+  position: relative;
+  left: 10%;
+}
+
+footer {
+  background-color: #0f0f0f;
+}

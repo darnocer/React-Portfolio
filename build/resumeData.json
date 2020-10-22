@@ -1,0 +1,184 @@
+{
+  "main": {
+    "name": "Darian",
+    "fullname": "Darian Nocera",
+    "occupation": "full stack web developer & designer",
+    "description": "I love generating ideas, solving problems, and making things happen!",
+    "image": "profilepic.png",
+    "bio": "I have always taken an interest in technology and design. I'm passionate about using these tools creatively to inspire others and make the world a better place! When I'm not coding, you can find me camping, hiking, mountain biking, practicing yoga, writing, reading, tending to my plants, or traveling.",
+    "contactmessage": "Holla @ Me",
+    "email": "darian.nocera26@gmail.com",
+    "phone": "(724) 831-6659",
+    "address": {
+      "street": "(Your Street)",
+      "city": "Denver",
+      "state": "CO",
+      "zip": "80211"
+    },
+    "website": "https://www.dariannocera.com/",
+    "resumedownload": "https://drive.google.com/file/d/1ZoQWPtsZqrEQOVh3a8kiyyR3wDog7IqP/view",
+    "social": [
+      {
+        "name": "linkedin",
+        "url": "https://www.linkedin.com/in/darian-nocera/",
+        "className": "fab fa-linkedin"
+      },
+      {
+        "name": "github",
+        "url": "https://github.com/darnocer",
+        "className": "fab fa-github"
+      },
+      {
+        "name": "dev.to",
+        "url": "https://dev.to/darnocer",
+        "className": "fab fa-dev"
+      }
+    ]
+  },
+  "resume": {
+    "skillmessage": "As a recent coding boot camp grad, with a background in biomedical engineering and information technology, I'm obsessed with learning and am always expanding this list! Below are some my most frequently used tools.",
+    "education": [
+      {
+        "school": "Penn State University",
+        "degree": "B.S. Biomedical Engineering",
+        "graduated": "December 2015",
+        "description": "Describe your experience at school, what you learned, what useful skills you have acquired etc."
+      },
+      {
+        "school": "University of Denver Coding Bootcamp",
+        "degree": "Full Stack Web Development Certification",
+        "graduated": "September 2020",
+        "description": "Describe your experience at school, what you learned, what useful skills you have acquired etc."
+      }
+    ],
+    "work": [
+      {
+        "company": "Epic Systems",
+        "title": "Healthcare Software Consutant",
+        "years": "July 2018 - Present",
+        "description": "Describe work, special projects, notable achievements, what technologies you have been working with, and anything else that would be useful for an employer to know."
+      },
+      {
+        "company": "Epic Systems",
+        "title": "Implmentation Project Manager",
+        "years": "June 2017 - July 2018",
+        "description": "Describe work, special projects, notable achievements, what technologies you have been working with, and anything else that would be useful for an employer to know."
+      }
+    ],
+    "skills": [
+      {
+        "name": "Git",
+        "level": "90%"
+      },
+      {
+        "name": "Javascript",
+        "level": "75%"
+      },
+      {
+        "name": "ReactJs",
+        "level": "60%"
+      },
+      {
+        "name": "CSS",
+        "level": "90%"
+      },
+      {
+        "name": "HTML5",
+        "level": "90%"
+      },
+      {
+        "name": "Node.js",
+        "level": "80%"
+      },
+      {
+        "name": "MongoDB",
+        "level": "50%"
+      }
+    ]
+  },
+  "portfolio": {
+    "projects": [
+      {
+        "title": "HelpersConnect",
+        "description": "A MERN-stack app that allows charitable organizations to manage events and volunteers.",
+        "image": "helpersconnect.png",
+        "url": "https://project-03-volunteer-calendar.herokuapp.com/",
+        "source": "https://github.com/darnocer/Project-03-volunteer-calendar",
+        "category": ["fullstack", "development"]
+      },
+      {
+        "title": "Code Connect",
+        "description": "A full-stack social platform for developers to connect to meet, collaborate, and learn",
+        "image": "codeconnect.png",
+        "url": "https://project-02-code-connect.herokuapp.com/",
+        "source": "https://github.com/darnocer/Project-02-Code-Connect",
+        "category": ["fullstack", "development"]
+      },
+      {
+        "title": "Date Nite",
+        "description": "A one-click solution to planning dates utilizing server-side APIs.",
+        "image": "datenite.png",
+        "url": "https://darnocer.github.io/Project-01-Date-Nite-App/",
+        "source": "https://github.com/darnocer/Project-01-Date-Nite-App",
+        "category": ["development"]
+      },
+      {
+        "title": "Read-Da-Book",
+        "description": "An application to manage a reading list of books on a SQL database rendered with Handlebars.",
+        "image": "readinglist.png",
+        "url": "https://obscure-scrubland-69219.herokuapp.com/",
+        "source": "https://github.com/darnocer/Node-Express-Handlebars-Reading-List",
+        "category": ["development"]
+      },
+      {
+        "title": "Weather Dashboard",
+        "description": "A weather application utilizing server-side APIs and persistent data via local storage.",
+        "image": "dashboard.png",
+        "url": "https://darnocer.github.io/Server-Side-APIs-Weather-Dashboard/",
+        "source": "https://github.com/darnocer/Server-Side-APIs-Weather-Dashboard",
+        "category": ["development"]
+      },
+      {
+        "title": "Code Quiz",
+        "description": "A vanilla Javascript quiz about vanilla Javascript.",
+        "image": "codequiz.png",
+        "url": "https://darnocer.github.io/Web-APIs-Code-Quiz/",
+        "source": "https://github.com/darnocer/Web-APIs-Code-Quiz",
+        "category": ["development"]
+      },
+      {
+        "title": "Read Me Generator",
+        "description": "A CLI application to generate README files utilizing Node.js.",
+        "image": "readmegen.png",
+        "source": "https://github.com/darnocer/Node.js-and-ES6-README-Generator",
+        "category": ["development"]
+      },
+      {
+        "title": "Wayout Back",
+        "description": "A simple store front with shopping cart functionality built with javascript",
+        "image": "shoppingcart.png",
+        "url": "https://darnocer.github.io/Shopping-Cart/",
+        "source": "https://github.com/darnocer/Shopping-Cart",
+        "category": ["development"]
+      },
+      {
+        "title": "Employee Tracker",
+        "description": "A CLI CMS for employee management utilizing node and MySQL.",
+        "image": "employeetracker.png",
+        "source": "https://github.com/darnocer/MySQL-Employee-Tracker",
+        "category": ["development"]
+      },
+      {
+        "title": "Design Projects",
+        "description": "COMING SOON",
+        "image": "design.png",
+        "category": ["design"]
+      }
+    ]
+  },
+  "volunteer": {
+    "organization": "The Underdog Foundation",
+    "website": "https://theunderdogfoundation.org/",
+    "description": "a 501(c)(3) Non-Profit Organization that supports local businesses in the Denver area by providing services such as web design, photography, and more completely free of charge. Let's get to work!"
+  }
+}

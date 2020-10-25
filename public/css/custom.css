@@ -205,11 +205,12 @@ header .scrolldown a:hover {
 .portfolio-item .item-wrap {
   max-height: 175px;
   min-height: 150px;
+  text-align: center;
 }
 
 .portfolio-item .item-wrap img {
   height: 175px;
-  width: 150%;
+  margin-left: auto;
 }
 
 /* portfolio animations */

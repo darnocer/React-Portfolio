@@ -169,9 +169,10 @@
         "category": ["development"]
       },
       {
-        "title": "Design Projects",
-        "description": "COMING SOON",
+        "title": "dariannocera.com",
+        "description": "Web Design & Technical Support for Entrepreneurs.",
         "image": "design.png",
+        "url": "https://www.dariannocera.com",
         "category": ["design"]
       }
     ]

@@ -2,24 +2,11 @@ import React, { Component } from "react";
 
 class Skills extends Component {
   render() {
-    // if (this.props.data) {
-    //   var skillmessage = this.props.data.skillmessage;
-
-    //   var skills = this.props.data.skills.map(function (skills) {
-    //     var className = "bar-expand " + skills.name.toLowerCase();
-    //     return (
-    //       <li key={skills.name}>
-    //         <span style={{ width: skills.level }} className={className}></span>
-    //         <em>{skills.name}</em>
-    //       </li>
-    //     );
-    //   });
-    // }
-
     return (
       <section id="skills">
         <div className="table-container desktop">
           <h1>Skills</h1>
+
           <table>
             <tbody>
               <tr>
@@ -34,17 +21,6 @@ class Skills extends Component {
                 </td>
                 <td>
                   <h2>
-                    Back-End <i className="fas fa-terminal"></i>
-                  </h2>
-                  <p>
-                    SQL (MySQL) • NoSQL (MongoDB) • Node.js • Express.js •
-                    Mongoose
-                  </p>
-                </td>
-              </tr>
-              <tr>
-                <td>
-                  <h2>
                     Design <i className="fas fa-paint-brush"></i>
                   </h2>
                   <p>
@@ -53,6 +29,18 @@ class Skills extends Component {
                     • Balsamiq
                   </p>
                 </td>
+              </tr>
+              <tr>
+                <td>
+                  <h2>
+                    Back-End <i className="fas fa-terminal"></i>
+                  </h2>
+                  <p>
+                    SQL (MySQL) • NoSQL (MongoDB) • Node.js • Express.js •
+                    Mongoose
+                  </p>
+                </td>
+
                 <td>
                   <h2>
                     Other Tools <i className="fas fa-code-branch"></i>

@@ -139,10 +139,12 @@ ul#nav li.current a,
 
 header .banner-text h1 {
   margin-bottom: 0px !important;
+  font: 120px/1.3em "Fjalla One", sans-serif !important;
 }
 
 /* Color for header text  */
 header .banner-text h3 {
+  font: 22px/1.9em "Quattrocento", serif;
   color: #fff !important;
   text-shadow: 0px 1px 2px rgba(0, 0, 0, 0.5);
 }
@@ -151,6 +153,7 @@ header .banner-text h3 {
 header .banner-text h3 span {
   color: #eee !important;
   text-shadow: 0px 0px 1px rgba(0, 0, 0, 0.5);
+  font-weight: 700;
 }
 
 /* more spcaing between social network icons */
@@ -167,7 +170,7 @@ header .scrolldown a:hover {
 /* opacity for better readibility of header  */
 .banner-bg {
   background-color: #333;
-  background: rgba(51, 51, 51, 0.5);
+  background: rgba(51, 51, 51, 0.5) !important;
   padding: 10px;
 }
 

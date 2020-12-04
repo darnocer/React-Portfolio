@@ -4,6 +4,8 @@
 /node_modules
 /unused
 /src/pages/PortfolioNew.js
+/.AI_files
+
 
 # testing
 /coverage

@@ -2,6 +2,8 @@
 
 ![last commit](https://img.shields.io/github/last-commit/darnocer/React-Portfolio?style=flat-square)
 
+## _This portfolio is no longer maintained. Check out my new one I built with Vue.js at [dnocera.com](https://www.dnocera.com)_
+
 ## Deployed App:
 
 [https://dariannocera.netlify.app/](https://dariannocera.netlify.app/)
@@ -37,14 +39,7 @@ A showcase of myself and projects built with the almighty & powerful [React](htt
 >
 > 8. Can use as is or style in `custom.css` to your heart's desire
 
-## Future Enhancements
 
-_I'm always updating this...._
-
-- Fix mobile-responsiveness for Skills section
-- Add CSS animations
-- Add Contact Form
-- Remove all unused CSS
 
 ## Credits
 
@@ -59,7 +54,7 @@ Thank you to [Tim Baker](https://github.com/tbakerx/react-resume-template) for d
 
 ## Contact
 
-Contact me at [darian.nocera26@gmail.com](mailto:darian.nocera26@gmail.com)
+Contact me at [hello@dariannocera.com](hello@dariannocera.com)
 
 or [![Follow on Github](https://img.shields.io/github/followers/darnocer?label=Follow&style=social)](http://www.github.com/darnocer)
 
@@ -67,4 +62,4 @@ Copyright © 2020 [Darian Nocera](http://www.github.com/darnocer)
 
 ---
 
-##### _Created with [darnocer's README generator](https://github.com/darnocer/Node.js-and-ES6-README-Generator)_ 👽
+##### _Created with [darnocer's README generator](https://github.com/darnocer/README-Generator)_ 👽
